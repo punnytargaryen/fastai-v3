@@ -11,19 +11,7 @@ from fastai.vision import *
 export_file_url = 'https://drive.google.com/uc?export=download&id=1o397GH8eY2m_VHu1vt3DUWBsecpO9TT2'
 export_file_name = 'export.pkl'
 
-classes = ['ascot',
-  'asianconical',
-  'baseball',
-  'beanie',
-  'beret',
-  'bicorne',
-  'chefhat',
-  'deerstalker',
-  'fedora',
-  'santahat',
-  'tophat',
-  'turban',
-  'zucchetto']
+classes = ['ascot','asianconical','baseball','beanie','beret','bicorne','chefhat','deerstalker','fedora','santahat','tophat','turban','zucchetto']
 path = Path(__file__).parent
 
 app = Starlette()
