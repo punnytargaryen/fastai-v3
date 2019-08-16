@@ -1,6 +1,6 @@
 numpy==1.16.2
 torchvision==0.3.0
-https://download.pytorch.org/whl/cpu/torch-1.1.0-cp37-cp37m-linux_x86_64.whl
+https://download.pytorch.org/whl/nightly/cpu/torch_nightly.html
 fastai==1.0.55
 starlette==0.11.4
 uvicorn==0.3.32
